@@ -56,10 +56,11 @@
 		6829297B25AF36FF00D4922D /* LessonNumber4PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				6829299325AF3F3000D4922D /* Model */,
+				6829299225AF3E9500D4922D /* View */,
+				6829299425AF3F4F00D4922D /* Controller */,
 				6829297C25AF36FF00D4922D /* AppDelegate.swift */,
 				6829297E25AF36FF00D4922D /* SceneDelegate.swift */,
-				6829298025AF36FF00D4922D /* ViewController.swift */,
-				6829299225AF3E9500D4922D /* View */,
 				6829298525AF370000D4922D /* Assets.xcassets */,
 				6829298A25AF370000D4922D /* Info.plist */,
 			);
@@ -73,6 +74,21 @@
 				6829298725AF370000D4922D /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6829299325AF3F3000D4922D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6829299425AF3F4F00D4922D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6829298025AF36FF00D4922D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
