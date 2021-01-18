@@ -5,7 +5,7 @@
 //  Created by vladimir gennadievich on 14.01.2021.
 //
 
-enum AnimalType:String {
+enum AnimalType:String,CaseIterable {
     case dog = "🐶"
     case cat = "🐱"
     case rabbit = "🐰"
